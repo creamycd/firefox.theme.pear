@@ -10,3 +10,5 @@ This suits thee Windows Operation System.
 If someone can help me review this thing, thank you so much.
 
 The comments are written in zh-Hans-CN.
+
+***If this code violates anyone's copyright, please, please, please let me know! I will delete it as soon as possible!***
