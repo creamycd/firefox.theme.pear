@@ -1,6 +1,8 @@
 # firefox.theme.pear
 > The "Pear" theme of Mozilla Firefox
 
+![preview picture](C:\Users\CreamyCandy\Pictures\Screenshots\屏幕截图 2023-09-20 191503.png)
+
 You need to [Restore the Menu bar in Firefox](https://support.mozilla.org/en-US/kb/restore-menu-bar-firefox) to use this theme.
 
 About how to change the theme? Well, maybe I'll write this later so please [Google](https://www.google.com/) it now...

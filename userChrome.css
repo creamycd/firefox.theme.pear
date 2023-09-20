@@ -1,0 +1,110 @@
+/* 将 #nav-bar 放在 #titlebar 的前面 */
+#nav-bar {
+  position: fixed !important;
+  width: 100% !important;
+  z-index: 1 !important;
+  top: 23.3333px !important;
+  -moz-box-ordinal-group: 0.1 !important;
+}
+
+#titlebar {
+  -moz-box-ordinal-group: 0 !important;
+  margin-top: 63.3333px
+}
+
+/* 取消ff标志左侧空格 */
+hbox.titlebar-spacer[type="pre-tabs"] {
+  display: none;
+}
+
+/* 将 #toolbar-menubar 移到它的母元素 #titlebar 外面 */
+#toolbar-menubar {
+  position: fixed !important;
+  width: 100% !important;
+  z-index: 1 !important;
+  top: 0px !important;
+  inactive: true !important;
+}
+
+#menubar-items {
+  margin-left: 100px
+}
+
+/* 最小化按钮 */
+.titlebar-min {
+  list-style-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Ccircle cx='5' cy='5' r='4.5' fill='%23febe32'/%3E%3C/svg%3E") !important;
+  width: 10px !important;
+  height: 10px !important;
+  margin-top: 5px !important;
+  position: fixed !important;
+  z-index: 1 !important;
+  left: 30px !important;
+  -moz-box-ordinal-group: 0.2 !important;
+}
+
+.titlebar-min:hover {
+  list-style-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Ccircle cx='5' cy='5' r='4.5' fill='%23fefe32'/%3E%3C/svg%3E") !important;
+  background: none !important;
+}
+
+/* 最大化按钮 */
+.titlebar-max {
+  list-style-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Ccircle cx='5' cy='5' r='4.5' fill='%2326c73d'/%3E%3C/svg%3E") !important;
+  width: 10px !important;
+  height: 10px !important;
+  margin-top: 5px !important;
+  position: fixed !important;
+  z-index: 1 !important;
+  left: 60px !important;
+  -moz-box-ordinal-group: 0.3 !important;
+}
+
+.titlebar-max:hover {
+  list-style-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Ccircle cx='5' cy='5' r='4.5' fill='%2326ff3d'/%3E%3C/svg%3E") !important;
+  background: none !important;
+}
+
+.titlebar-restore {
+  list-style-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Ccircle cx='5' cy='5' r='4.5' fill='%2326c73d'/%3E%3C/svg%3E") !important;
+  width: 10px !important;
+  height: 10px !important;
+  margin-top: 5px !important;
+  position: fixed !important;
+  z-index: 1 !important;
+  left: 60px !important;
+  -moz-box-ordinal-group: 0.3 !important;
+}
+
+.titlebar-restore:hover {
+  list-style-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Ccircle cx='5' cy='5' r='4.5' fill='%2326ff3d'/%3E%3C/svg%3E") !important;
+  background: none !important;
+}
+
+/* 关闭按钮 */
+.titlebar-close {
+  list-style-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Ccircle cx='5' cy='5' r='4.5' fill='%23ec504a'/%3E%3C/svg%3E") !important;
+  width: 10px !important;
+  height: 10px !important;
+  margin-top: 5px !important;
+  position: fixed !important;
+  z-index: 1 !important;
+  left: 0px !important;
+  -moz-box-ordinal-group: 0.1 !important;
+}
+
+.titlebar-close:hover {
+  list-style-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Ccircle cx='5' cy='5' r='4.5' fill='%23ff605a'/%3E%3C/svg%3E") !important;
+  background: none !important;
+}
+
+/* 将 #urlbar 内的文字居中 */
+#urlbar-input {
+  text-align: center;
+}
+
+/* 去掉盾牌标志 */
+#tracking-protection-icon-container{
+  display: none;
+}
+
+/* Thank you for your code review and sorry for this shit code! */
